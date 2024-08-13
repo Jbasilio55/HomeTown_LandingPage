@@ -14,6 +14,14 @@ body {
   color: white;
 }
 
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero h2 {
+  font-size: 24px;
+}
+
 #page-header {
   background-color: #606c38;
   padding: 5px 15px;
@@ -52,8 +60,23 @@ body {
   text-align: center;
   height: 400px;
   width: 470px;
-  padding: 0 50px;
+  padding: 10px 50px 10px;
   line-height: 200%;
+}
+
+.activity-card img {
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.activity-card h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.activity-card p {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .activity-card:hover {
@@ -74,15 +97,22 @@ img {
   width: 700px;
   margin: 50px auto;
   padding: 50px;
-  border-bottom: 8px solid #283618;
+  border-bottom: 10px solid #283618;
   border-radius: 10px;
 }
 
 #my-image {
-  width: 400px;
+  width: 350px;
   border-radius: 10px;
+  filter: drop-shadow(15px 15px 0.75rem crimson);
 }
 
 .description-card {
+  text-align: center;
   margin: 50px;
+}
+
+#description-text {
+  font-weight: 300;
+  font-style: italic;
 }
