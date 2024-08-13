@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://www.njfuture.org/wp-content/uploads/2011/05/Heldrich_for_web1.jpg);
+  background-size: cover;
+  height: 900px;
+  color: white;
+}
+
+#page-header {
+  background-color: #606c38;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.town-description {
+  background-color: #283618;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+.act-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #dda15e;
+}
+
+#activity-h2 {
+  padding-top: 50px;
+  text-align: center;
+  padding: 50px auto;
+  margin-bottom: 30px;
+}
+
+.activities {
+  display: flex;
+  border-color: #fefae0;
+}
+
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  width: 470px;
+  padding: 0 50px;
+  line-height: 200%;
+}
+
+.activity-card:hover {
+  background-color: #bc6c25;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.guide-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #606c38;
+  color: white;
+  width: 700px;
+  margin: 50px auto;
+  padding: 50px;
+  border-bottom: 8px solid #283618;
+  border-radius: 10px;
+}
+
+#my-image {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.description-card {
+  margin: 50px;
+}
